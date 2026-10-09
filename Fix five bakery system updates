@@ -159,5 +159,5 @@ function delItem(type,i){let x=db[type][i];if(x&&x.date&&isClosed(x.date)){alert
 applyPermissions();
 function renderAll(){dash();mainPage();productionPage();salesPage();expensesPage();branchPage();borrowPage();closingPage();reportsPage();usersPage()}renderAll(); restoreSession();
 const SUPABASE_URL = 'https://mzbblaeuxzjeuoltchrc.supabase.co';
-const SUPABASE_KEY = 'የPublishable keyህን እዚህ አስገባ';
+const SUPABASE_KEY = 'sb_publishable__fzE-02yNMUJqiim0a-gzQ_zLoUQ6ja';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);</script></body></html>
